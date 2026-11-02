@@ -1,0 +1,29 @@
+INVITACIÓN WEB · JONATHAN & LUZ MAGALY
+
+INICIO
+1. Descomprime la carpeta completa.
+2. Abre la carpeta en Visual Studio Code.
+3. Ejecuta index.html con Live Server (no abras el archivo directamente: las pantallas HTML se cargan mediante fetch).
+4. Pulsa “Activar música”. Los navegadores requieren una interacción para iniciar el audio.
+
+EDICIÓN DE DATOS
+- content.js: nombres, fecha, hora, ceremonia, dirección, padres, padrinos y teléfono.
+- scenes/scene-01.html hasta scene-09.html: cada pantalla es un HTML independiente y editable. Puedes cambiar textos, estructura, etiquetas, agregar secciones, imágenes o eliminar elementos.
+- styles.css: colores, tipografías, tamaños, animaciones y adaptación a celular/computadora.
+- app.js: navegación, carga de cada HTML, transición, contador, gestos táctiles y música. No necesitas tocarlo para cambiar contenido.
+
+FOTOS Y ADORNOS FLORALES
+- Las fotos de fondo actuales están en assets/ y se pueden reemplazar conservando el mismo nombre o cambiando el campo image de content.js.
+- Para tus adornos, coloca imágenes PNG con fondo transparente (ideal) o WebP en assets/adornos/.
+- Cada HTML ya contiene etiquetas img opcionales con nombres sugeridos, por ejemplo assets/adornos/flores-portada-izquierda.png. Cuando coloques el archivo con ese nombre, aparecerá automáticamente; si aún no existe, la etiqueta se retira sin mostrar un icono roto.
+- Puedes añadir más etiquetas <img class="floral ..." data-decor src="assets/adornos/tu-foto.png" alt=""> dentro del HTML que quieras. Las clases floral-left, floral-right, floral-top y floral-bottom posicionan los adornos; puedes ajustar su tamaño en styles.css.
+- Recomendación: usa flores recortadas/transparente, resolución aproximada 600–1200 px, y deja aire alrededor del motivo para que no tape los textos.
+
+DISEÑO RESPONSIVE
+La invitación adapta su composición a pantallas pequeñas y grandes. En celular ocupa la pantalla completa; en computadora se presenta como una pieza vertical centrada. Hay botones anterior/siguiente, contador, barra de progreso, navegación con flechas y gesto de deslizar en móvil.
+
+MÚSICA
+Se conserva assets/musica-referencia.m4a, extraída del video de referencia original. No es el MP3 que aparecía como ruta local en el proyecto FilmCraft, porque ese archivo no estaba incluido.
+
+IMPORTANTE SOBRE LAS FOTOS ACTUALES
+Las imágenes de fondo disponibles son capturas del video original. Algunos textos y adornos que estaban dentro de esas capturas ya forman parte de la imagen y no se pueden editar como texto HTML. Para evitar duplicar letras, puedes reemplazar cada fondo por una foto limpia o un diseño sin texto. Los textos de los archivos scene-XX.html sí son editables.

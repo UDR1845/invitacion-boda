@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#e9e4dc"><meta name="description" content="Acompáñanos a celebrar nuestra boda.">
+  <title>Nuestra Boda · Jonathan & Luz Magaly</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="invite" aria-live="polite">
+    <div class="progress"><span id="progressBar"></span></div>
+    <section id="scene" class="scene scene-enter">
+      <div class="scene-photo" id="sceneImage"></div><div class="photo-shade"></div>
+      <div class="scene-html" id="sceneContent"></div>
+      <div class="corner corner-tl">❧</div><div class="corner corner-br">❧</div>
+    </section>
+    <div class="controls"><button class="control" id="prevBtn" aria-label="Escena anterior">‹</button><span id="counter">01 / 09</span><button class="control" id="nextBtn" aria-label="Siguiente escena">›</button></div>
+    <button class="sound" id="soundBtn" aria-label="Activar música"><span id="soundIcon">♫</span><span id="soundLabel">Activar música</span></button>
+    <audio id="music" src="assets/musica-referencia.mp3" preload="auto" loop></audio>
+  </main>
+  <script src="content.js"></script><script src="app.js"></script>
+</body></html>
