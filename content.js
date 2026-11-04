@@ -10,7 +10,7 @@ window.INVITATION = {
   addressparty: "Asociacion Ciudad de Dios Mz I Lt 4 - Yura",
   mapsparty: "https://www.google.com/maps?q=-16.3048533,-71.6211933&z=17&hl=es",
   parentsBride: "Gil Hidler Condorcahuana Taya & Sonia Perez Huisacaina",
-  parentsGroom: "Victoriano Condori Alahui & Juliana Cuchuyrumi Mesa",
+  parentsGroom: "Victoriano Condori Alahui & Juliana Cuchuyrumi Meza",
   godparents: "Elizabeth Zarate Cuevas & Yessica Lisbeth Mamani Mamani",
   contact: "937 634 359",
   confirmation:"http://wa.me/51937634359?text=Hola,%20confirmo%20mi%20asistencia%20a%20tu%20boda%20%F0%9F%A4%97",
