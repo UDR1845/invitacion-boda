@@ -7,7 +7,7 @@ window.INVITATION = {
   time: "12:00 del mediodía",
   addressceremony: "Plaza principal la Calera - Yura",
   mapsceremony: "https://maps.app.goo.gl/NR98dSD3C5XzN6g49?g_st=aw",
-  addressparty: "Asociacion Ciudad de Dios Mz I Lt 4 - Yura",
+  addressparty: "Local de eventos suyari de encantos ,kg 16 ,paradero subida",
   mapsparty: "https://www.google.com/maps?q=-16.2978551,-71.6243604&z=17&hl=es",
   parentsBride: "Gil Hidler Condorcahuana Taya & Sonia Perez Huisacaina",
   parentsGroom: "Victoriano Condori Alahui & Juliana Cuchuyrumi Meza",
